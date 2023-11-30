@@ -1,0 +1,230 @@
+input::placeholder {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Helvetica Neue', sans-serif; 
+}
+
+#headerNav {
+    position: absolute;
+    top: 0;
+    z-index: 200;
+    background-color: rgb(12, 12, 12, 0.6);
+}
+
+#carouselExampleSlidesOnly {
+    position: relative;
+}
+
+#overlap {
+    color: white;
+    width: 100%;
+    position: absolute;
+    transform: translate(0px,-400px);
+    text-align: center;
+    /* border: 2px solid green; */
+    padding: 20px 0;
+
+}
+
+#find {
+    font-size: 56px;
+    line-height: 56px;
+    vertical-align: baseline;
+    font-weight: 600;
+}
+
+#join {
+    font-size: 26px;
+    line-height: 36px;
+    vertical-align: baseline;
+    font-weight: 600;
+    padding: 0 350px;
+    margin: 26px 0 50px;
+}
+
+#start {
+    font-size: 24px;
+    line-height: 64px;
+    vertical-align: baseline;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+
+#carouselExampleSlidesOnly img {
+    /* border: 2px solid red; */
+    height: 90vh;
+    width: 100%;
+}
+
+
+
+#small-screen-1 {
+    color: white;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight:700;
+    line-height: normal;
+    font-weight: 500;
+    font-family: 'helvetica';
+    text-decoration: none;
+    text-align: start;
+    cursor: pointer;
+}
+
+#small-screen-2 {
+    padding: 8px 15px;
+    color: black;
+    font-size: 16px;
+    line-height: normal;
+    font-weight:550;
+    font-family: 'helvetica';
+    text-decoration: none;
+    text-align: start;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+    margin:0 20px;
+}
+
+#links {
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    /* position: fixed; */
+}
+
+#links a {
+    color: rgb(128,128,128);
+    font-size: 14px;
+    line-height: 16.8px;
+    vertical-align: baseline;
+    font-weight: 500;
+    font-stretch:100%;
+    text-decoration: none;
+       /* border: 2px solid red; */
+}
+
+#links a:hover {
+    color: white;
+} 
+
+
+
+    /* RESPONSIVE WEB DESIGN */
+
+/* responsiveness for small phone */
+@media only screen and (max-width:760px) {
+    #form-header {
+        display: none;
+    }
+
+    #small-screen-1 {
+        display: none;
+            }
+
+    #small-screen-2{
+        display: none;
+    }
+
+    #log-in a {
+        border: 2px solid white;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        line-height: normal;
+        font-weight: 400;
+        font-family: 'Helvetica Neue'; 
+    }
+
+    #links div {
+        padding: 0 0 20px;
+        margin: 0 0 10px;
+        border-bottom: 1px solid rgb(128,128,128);;
+    }
+
+    #links a {
+        color: rgb(128,128,128);
+        font-size: 12.599999px;
+        line-height: 20px;
+        font-weight: 700;        
+        /* border: 2px solid red; */
+    }
+
+    #overlap {
+        color: white;
+        position: absolute;
+        transform: translate(0px,-250px);
+        text-align: center;
+        border: 2px solid green;
+    
+    }
+
+}
+
+  
+/* resposiveness for Ipads and tabs */
+@media only screen and (width: 768px), (width: 820px), (width: 1024px) {
+    #form-header {
+        display: none;
+    }   
+
+    #small-screen-2 {
+        padding: 8px 15px;
+        font-size: 10px;
+        line-height: normal;
+        font-weight:550;
+        font-family: 'helvetica';
+        text-decoration: none;
+        text-align: start;
+        cursor: pointer;
+        background-color: white;
+        border-radius: 5px;
+        margin:0 20px;
+        white-space: nowrap;
+    }
+    
+    #overlap {
+        color: white;
+        position: absolute;
+        transform: translate(0px,-600px);
+        text-align: center;
+        /* border: 2px solid green; */
+    }
+
+    #find {
+        font-size: 56px;
+        line-height: 56px;
+        vertical-align: baseline;
+        font-weight: 600;
+    }
+    
+    #join {
+        font-size: 26px;
+        line-height: 36px;
+        vertical-align: baseline;
+        font-weight: 600;
+        padding: 0 60px;
+        margin: 26px 0 50px;
+    }
+    
+    #start {
+        font-size: 24px;
+        line-height: 64px;
+        vertical-align: baseline;
+        font-weight: 700;
+        text-decoration: none;
+        color: rgb(15, 15, 15);
+        padding: 20px;
+        background-color: white;
+        border-radius: 5px;
+        
+    }
+
+}

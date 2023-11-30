@@ -1,0 +1,13 @@
+<form class="w-75 me-3" role="search">
+            <input
+              type="search"
+              class="form-control"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+</form>
+
+font-size: 14px;
+line-height: 16.8px;
+font-weight: 400;
+font-family: helvetica;
